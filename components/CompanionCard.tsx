@@ -38,8 +38,8 @@ const CompanionCard = ({
 				</button>
 			</div>
 
-			<h2 className="text-2xl font-bold">{name}</h2>
-			<p className="text-sm">{topic}</p>
+			<h2 className="text-2xl font-bold dark:text-black">{name}</h2>
+			<p className="text-sm dark:text-black">{topic}</p>
 			<div className="flex items-center gap-2">
 				<Image
 					src="/icons/clock.svg"
@@ -47,7 +47,7 @@ const CompanionCard = ({
 					width={13.5}
 					height={13.5}
 				/>
-				<p className="text-sm">{duration} minutes</p>
+				<p className="text-sm dark:text-black">{duration} minutes</p>
 			</div>
 
 			<Link href={`/companions/${id}`} className="w-full">
